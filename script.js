@@ -15,12 +15,7 @@ function firstNonRepeatingChar(string){
 }
 
 let string = prompt("Enter a string");
-let ans = firstNonRepeatingChar(string);
 
-if(ans !== null){
-	alert(ans);
-}
-else{
-	alert("no non repeating character in a string");
-}
+let ans = firstNonRepeatingChar(string);
+alert(ans);
 
